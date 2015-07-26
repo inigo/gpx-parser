@@ -1,0 +1,23 @@
+Scala parser for a limited subset of GPX XML files (as produced by Runkeeper).
+
+== Description ==
+
+GPX is used for GPS data exchange, mapping, and geocaching. The full GPX file
+format is described at http://www.topografix.com/gpx.asp. This parser works
+on the very limited subset of that format used by Runkeeper (http://runkeeper.com)
+for recording the time and track of an activity.
+
+== Building ==
+
+This is a Scala project using SBT / Activator.
+
+To build it, run:
+
+    ./activator compile (to build)
+    ./activator test (to run the Specs2 tests)
+    ./activator package (to produce a JAR)
+
+== Copyright ==
+
+This software is Copyright (c) 2105 Inigo Surguy and made available under the MIT License
+(see LICENSE.txt).
